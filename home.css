@@ -1,0 +1,114 @@
+html ,body{
+    padding: 0;
+    margin: 0;
+background-color: rgb(206,216,219);
+}
+
+body{
+    /* font-family: sans-serif; */
+}
+
+.hero{
+    background-color: purple;
+    padding: 20px 30px;
+    text-align: center;
+    color: aliceblue;
+    position: fixed;
+    margin-bottom: 15px;
+    min-width: 100%;
+
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+   height: 10px;
+    background:linear-gradient(to left,blue,red )
+}
+
+.hero::after{
+    content: "";
+    position: absolute;
+   bottom: 0;
+    right: 0;
+    left: 0;
+   height: 10px;
+    background:linear-gradient(to left,rgb(227, 87, 220),rgb(197, 209, 30) )
+}
+.hero h1{
+    /* font-size: normal; */
+    margin: 0;
+    font-weight: normal;
+    font-size: 6rem;
+}
+
+.content {
+    padding-top: 190px;
+}
+.content-animal {
+    padding-top: 60px;
+}
+
+.hero h3{
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.6rem;
+}
+
+.filter-nav{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    min-width: 100%;
+}
+.filter-nav a{
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    color: purple;
+}
+
+.animal{
+    max-width: 660px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.animal-card{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+
+}
+.animal-text{
+    padding: 10px 20px;
+}
+
+.animal-img{
+    order: 1;
+    grid-row: 1
+}
+.animal-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0px;
+    text-align: center;
+    min-width: 100%;
+    z-index: 10;
+    background-color: aliceblue;
+}
