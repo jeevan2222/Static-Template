@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.home-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(228, 233, 237);
+    box-sizing: border-box;
+   
+}
+.vl {
+    border-left: 1px solid gray;
+  height: 50px;
+  /* margin: 0; */
+  /* margin-top: 0; */
+  top: 0;
+  }
+  .search {
+ position: absolute;
+
+
+  }
+.log  ul {
+    display: flex;
+   
+
+}
+
+.log  ul li{
+    padding: 10px;
+}
+.business ul {
+    display: flex;
+ 
+}
+.business ul {
+justify-content: space-around 
+     
+     /* margin: 10px; */
+}
+.home-page ul li {
+
+    list-style: none;
+}
+.icons ul{
+    display: flex; 
+    /* justify-content: space-between;
+     */
+ 
+}
+.icons ul li{
+    margin: 20px
+}
